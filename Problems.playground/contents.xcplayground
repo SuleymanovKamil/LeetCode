@@ -6,5 +6,6 @@
         <page name='217. Contains Duplicate'/>
         <page name='136. Single Number'/>
         <page name='189. Rotate Array'/>
+        <page name='344. Reverse String'/>
     </pages>
 </playground>
