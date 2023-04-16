@@ -4,5 +4,6 @@
         <page name='1.TwoSum'/>
         <page name='7. Reverse Integer'/>
         <page name='217. Contains Duplicate'/>
+        <page name='136. Single Number'/>
     </pages>
 </playground>
