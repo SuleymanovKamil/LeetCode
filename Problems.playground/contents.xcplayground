@@ -7,5 +7,6 @@
         <page name='136. Single Number'/>
         <page name='189. Rotate Array'/>
         <page name='344. Reverse String'/>
+        <page name='26. Remove Duplicates from Sorted Array'/>
     </pages>
 </playground>
