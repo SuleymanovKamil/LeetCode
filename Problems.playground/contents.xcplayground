@@ -8,5 +8,6 @@
         <page name='189. Rotate Array'/>
         <page name='344. Reverse String'/>
         <page name='26. Remove Duplicates from Sorted Array'/>
+        <page name='3. Longest Substring Without Repeating Characters'/>
     </pages>
 </playground>
