@@ -12,5 +12,6 @@
         <page name='9. Palindrome Number'/>
         <page name='13. Roman to Integer'/>
         <page name='14. Longest Common Prefix'/>
+        <page name='20. Valid Parentheses'/>
     </pages>
 </playground>
