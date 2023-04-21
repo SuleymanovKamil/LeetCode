@@ -13,5 +13,6 @@
         <page name='13. Roman to Integer'/>
         <page name='14. Longest Common Prefix'/>
         <page name='20. Valid Parentheses'/>
+        <page name='27. Remove Element'/>
     </pages>
 </playground>
