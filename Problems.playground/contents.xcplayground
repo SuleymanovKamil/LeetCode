@@ -15,5 +15,6 @@
         <page name='20. Valid Parentheses'/>
         <page name='27. Remove Element'/>
         <page name='28. Find the Index of the First Occurrence in a String'/>
+        <page name='35. Search Insert Position'/>
     </pages>
 </playground>
