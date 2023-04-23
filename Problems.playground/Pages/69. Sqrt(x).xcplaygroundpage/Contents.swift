@@ -17,7 +17,15 @@
 import Foundation
 
 func mySqrt(_ x: Int) -> Int {
+    var guess = Double(x) / 2.0
+        var prevGuess: Double = 0.0
 
+        while guess != prevGuess {
+            prevGuess = guess
+            guess = (guess + Double(x) / guess) / 2.0
+        }
+
+        return Int(guess)
 }
 
-mySqrt(4)
+mySqrt(8)
