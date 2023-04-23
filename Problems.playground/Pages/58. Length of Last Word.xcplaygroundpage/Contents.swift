@@ -29,3 +29,6 @@ func lengthOfLastWord(_ s: String) -> Int {
 
 lengthOfLastWord("   fly me   to   the moon  ")
 
+func lengthOfLastWord2(_ s: String) -> Int {
+    return s.split(separator: " ").last?.count ?? 0
+}
