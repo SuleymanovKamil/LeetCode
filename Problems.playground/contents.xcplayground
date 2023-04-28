@@ -22,5 +22,10 @@
         <page name='69. Sqrt(x)'/>
         <page name='70. Climbing Stairs'/>
         <page name='88. Merge Sorted Array'/>
+        <page name='94. Binary Tree Inorder Traversal'/>
+        <page name='121. Best Time to Buy and Sell Stock'/>
+        <page name='21. Merge Two Sorted Lists'/>
+        <page name='83. Remove Duplicates from Sorted List'/>
+        <page name='100. Same Tree'/>
     </pages>
 </playground>
