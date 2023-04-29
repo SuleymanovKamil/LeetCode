@@ -1,4 +1,5 @@
 /*
+ 101. Symmetric Tree
  Easy
 
  Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
@@ -15,5 +16,11 @@
 import Foundation
 
 func isSymmetric(_ root: TreeNode?) -> Bool {
+    return root?.left == root?.right
+}
 
+extension TreeNode: Equatable {
+    public static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+        return lhs.val == rhs.val && lhs.left == rhs.right && lhs.right == rhs.left
+    }
 }

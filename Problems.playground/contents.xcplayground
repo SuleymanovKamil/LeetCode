@@ -27,5 +27,9 @@
         <page name='21. Merge Two Sorted Lists'/>
         <page name='83. Remove Duplicates from Sorted List'/>
         <page name='100. Same Tree'/>
+        <page name='101. Symmetric Tree'/>
+        <page name='104. Maximum Depth of Binary Tree'/>
+        <page name='108. Convert Sorted Array to Binary Search Tree'/>
+        <page name='110. Balanced Binary Tree'/>
     </pages>
 </playground>
