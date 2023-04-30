@@ -20,6 +20,8 @@
 import Foundation
 
 func isBalanced(_ root: TreeNode?) -> Bool {
+
+    var array = [root]
     return false
 }
 

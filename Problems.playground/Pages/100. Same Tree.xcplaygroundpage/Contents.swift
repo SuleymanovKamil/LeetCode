@@ -28,4 +28,4 @@ func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
     return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
 }
 
-isSameTree(TreeNode(1, TreeNode(2), TreeNode(3)), TreeNode(1, TreeNode(2), TreeNode(3)))
+isSameTree(TreeNode([1,2,3]), TreeNode([1,2,3]))
