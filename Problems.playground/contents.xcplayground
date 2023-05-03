@@ -33,5 +33,9 @@
         <page name='110. Balanced Binary Tree'/>
         <page name='111. Minimum Depth of Binary Tree'/>
         <page name='637. Average of Levels in Binary Tree'/>
+        <page name='125. Valid Palindrome'/>
+        <page name='326. Power of Three'/>
+        <page name='0.Swift Algorithims'/>
+        <page name='118. Pascal&apos;s Triangle'/>
     </pages>
 </playground>

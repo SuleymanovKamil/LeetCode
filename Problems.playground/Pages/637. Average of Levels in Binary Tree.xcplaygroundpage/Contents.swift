@@ -19,11 +19,9 @@
 
 import Foundation
 
-
-
 func averageOfLevels(_ root: TreeNode?) -> [Double] {
     guard let root = root else { return [] }
-    var queue: [TreeNode] = [root] //FIFO
+    var queue: [TreeNode] = [root]
     var result: [Double] = []
 
     while !queue.isEmpty {

@@ -39,10 +39,10 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
 
 
 func twoSumOptimal(_ nums: [Int], _ target: Int) -> [Int] {
-    var dict = [Int:Int]()
+    var dict: [Int: Int] = [:]
 
     for (i, n) in nums.enumerated() {
-        if let val = dict[target-n] { return [val, i] }
+        if let val = dict[target - n] { return [val, i] }
         dict[n] = i
     }
 
@@ -50,8 +50,8 @@ func twoSumOptimal(_ nums: [Int], _ target: Int) -> [Int] {
 }
 
 
-twoSum([3,3], 6)
-twoSum([2,7,11,15], 9)
-twoSum([-3,4,3,90], 0)
+//twoSumOptimal([3,3], 6)
+twoSumOptimal([2,11,15,7], 9)
+//twoSum([-3,4,3,90], 0)
 
 

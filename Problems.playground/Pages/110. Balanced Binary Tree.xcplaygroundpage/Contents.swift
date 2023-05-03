@@ -20,9 +20,16 @@
 import Foundation
 
 func isBalanced(_ root: TreeNode?) -> Bool {
+    guard let root = root else { return true }
+    if !isBalanced(root.left) || !isBalanced(root.right) { return false }
+    return abs(val(root.left) - val(root.right)) <= 1
+}
 
-    var array = [root]
-    return false
+
+private func val(_ treeNode: TreeNode?) -> Int {
+    guard let node = treeNode else { return -1 }
+    return 1 + max(val(node.left), val(node.right))
 }
 
 isBalanced(TreeNode([3,9,20,nil,nil,15,7]))
+//isBalanced(TreeNode([1,2,2,3,3,nil,nil,4,4]))
